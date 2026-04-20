@@ -106,20 +106,3 @@ Draw certain conclusions by creating visuals to communicate the changes in the c
 1. [https://pythonplot.com/](https://pythonplot.com/)
 2. [https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
 
-## Todo
-
-- [ ] Number of Samples in each Year
-
-- [ ] Number of Columns in each dataset
-
-- [ ] Duplicate rows in each dataset
-
-- [ ] Datatypes of Columns
-
-- [ ] Features with missing values
-
-- [ ] numbers of non-null unique values for feature in each dataset
-
-- [ ] what those unique values are and counts for each
-
-- [ ] analysis by grouping certain features
