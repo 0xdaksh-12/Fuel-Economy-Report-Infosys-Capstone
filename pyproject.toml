@@ -1,0 +1,27 @@
+[project]
+name = "fuel-economy"
+version = "0.1.0"
+description = "EPA Fuel Economy Analysis & SmartWay Vehicle Predictor (Infosys Capstone)"
+authors = [{ name = "Daksha Jha" }]
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "joblib>=1.5.3",
+    "pandas>=3.0.2",
+    "scikit-learn>=1.8.0",
+]
+
+[project.scripts]
+predict = "predicator.predicator_smart_way:main"
+
+[tool.setuptools.packages.find]
+include = ["predicator*"]
+
+[dependency-groups]
+notebooks = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "seaborn>=0.13.2",
+    "openpyxl>=3.1.5",
+]
+
